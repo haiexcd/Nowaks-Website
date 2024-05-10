@@ -84,6 +84,14 @@ h2 {
     color: #3b3b3b;
 }
 
+h3 {
+    font-family: 'Quattrocento', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3b3b3b;
+    margin-bottom: 0.75rem;
+}
+
 
 
 p {
@@ -126,6 +134,33 @@ hr {
     width: calc(100% + 2rem);
     left: -1rem;
 }
+
+/* About and Product Sections */
+#about-section, #product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3.45rem;
+}
+
+.half-width {
+    flex-basis: calc(50% - 0.5rem);
+    margin-bottom: 1.25rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+}
+
+.half-width img {
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.half-width img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
 
 
 
