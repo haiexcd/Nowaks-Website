@@ -216,4 +216,8 @@ hr {
     p, h3, em {
         font-size: 0.875rem;
     }
+
+    #about-section, #product-section {
+        flex-direction: column;
+    }
 }
