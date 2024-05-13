@@ -62,6 +62,10 @@ nav a {
     color: #3b3b3b;
 }
 
+nav a:hover {
+    color: #757575;
+}
+
 nav a:last-child {
     margin-right: 0;
 }
@@ -160,6 +164,23 @@ hr {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
+/* Delivery Section */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#delivery a {
+    font-size: medium;
+}
+
 /* Contact List */
 ol {
     list-style: none;
@@ -184,6 +205,51 @@ ol li a:hover {
     color: #757575;
 }
 
+/* Footer Section */
+footer {
+    width: 100%;
+    background-color: #3b3b3b;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+}
+
+footer a:hover {
+    color: #757575;
+}
+
+footer p {
+    color: white;
+    font-size: 0.875rem;
+    margin: 0;
+    padding: 0.25rem 0;
+}
+
+#social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 1rem auto;
+}
+
+#social li {
+    padding: 0.75rem;
+}
+
+
+#soical-heading {
+    font-size: 1.125rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
 
 
 /* Media Queries */
