@@ -16,9 +16,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
+      <!-- Header Section -->
       <header>
         <div class="hamburger" aria-label="Toggle Navigation">&#9776;</div>
         <div class="logo-title-container">
@@ -110,7 +115,7 @@
           <hr />
         </div>
 
-        <!-- Product Section -->
+        <!-- Products Section -->
         <div class="wrapper">
           <h2 id="products" class="center">Featured Products</h2>
           <section id="product-section">
@@ -147,14 +152,22 @@
           <hr />
         </div>
 
+        <!-- Section for Event Calendar -->
+        <div class="wrapper">
+          <h2 id="events" class="center">Upcoming Events</h2>
+          <div id="calendar"></div>
+          <div id="event-details" class="event-details"></div>
+          <hr />
+        </div>
+
         <!-- Delivery Section -->
         <div class="wrapper">
-          <h2 class="center">Delivery Options</h2>
+          <h2 class="center" id="delivery">Delivery Options</h2>
           <p class="center">
             We now deliver through DoorDash! Visit our storefront to place your
             order for quick and convenient delivery.
           </p>
-          <p class="center" id="delivery">
+          <p class="center">
             <a
               href="https://www.doordash.com/convenience/store/nowak%27s-liquor-%26-wine-saint-paul-28073264/"
               class="button"
@@ -202,6 +215,9 @@
       <p class="center">Designed by Hai Nguyen</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
     <script defer src="main.js"></script>
   </body>
 </html>
