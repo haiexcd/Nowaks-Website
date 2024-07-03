@@ -15,14 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
       events: [
         {
           title: 'Whiskey Tasting',
-          start: '2024-05-14T18:00:00',
-          end: '2024-05-14T20:00:00',
+          start: '2024-07-14T18:00:00',
+          end: '2024-07-14T20:00:00',
           description: 'Join us for an exclusive whiskey tasting event featuring premium selections from around the world.'
         },
         {
           title: 'Wine Tasting',
-          start: '2024-05-21T18:00:00',
-          end: '2024-05-21T20:00:00',
+          start: '2024-07-21T18:00:00',
+          end: '2024-07-21T20:00:00',
           description: 'Enjoy an evening of wine tasting with a variety of fine wines from top vineyards.'
         }
       ],

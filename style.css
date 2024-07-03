@@ -145,6 +145,29 @@ hr {
   left: -1rem;
 }
 
+/* Store Hours */
+.store-hours {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #ffe4b2; /* Light orange background */
+    border-left: 5px solid #ff8c00; /* Darker orange border */
+    border-right: 5px solid #ff8c00;
+    font-size: 1.125rem;
+    color: #3b3b3b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .store-hours p {
+    margin: 0.25rem 0;
+    font-weight: bold;
+  }
+  
+  .store-hours p:first-of-type {
+    font-size: 1.25rem;
+    color: #ff8c00; /* Darker orange for the "Store Hours:" text */
+  }
+  
+
 /* About and Product Sections */
 #about-section,
 #product-section {
@@ -201,6 +224,40 @@ hr {
 #delivery a {
   font-size: medium;
 }
+
+/* DoorDash Button */
+.doordash-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #ff3008; /* DoorDash red */
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .doordash-button:hover {
+    background-color: #e02d07;
+  }
+  
+  .doordash-text {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .doordash-logo {
+    display: inline-block;
+    background-color: white;
+    color: #ff3008; /* DoorDash red */
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "Arial", sans-serif;
+  }
+  
 
 /* Contact List */
 ol {
