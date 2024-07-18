@@ -95,6 +95,7 @@ h2 {
   font-family: "Quattrocento", sans-serif;
   font-size: 2.25rem;
   color: #3b3b3b;
+  margin-bottom: 0;
 }
 
 h3 {
@@ -117,10 +118,11 @@ p {
 }
 
 em {
-  font-size: 0.875rem;
+  font-size: 0.95rem;
   line-height: 1.125rem;
   display: block;
   color: #757575;
+  margin-top: 0.5rem;
 }
 
 /* Layouts and Containers */
