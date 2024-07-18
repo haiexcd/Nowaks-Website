@@ -78,12 +78,13 @@ nav a:last-child {
   margin-right: 0;
 }
 
-/* Main Image Section */
-.bg-full-image img {
-  display: block;
-  width: 100%;
-  border: 1px solid #b4b4b4;
-}
+/* Main Video Section */
+.bg-full-image video {
+    display: block;
+    width: 100%;
+    border: 1px #d4d4d4;
+    margin-top: 0.1rem;
+  }
 
 .full-width {
   width: 100%;
