@@ -14,22 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
       displayEventTime: false, // Disable default time rendering
       events: [
         {
-          title: 'Wikid Tasting',
-          start: '2024-07-19T16:00:00',
-          end: '2024-07-19T19:00:00',
-          description: 'Join us for an exclusive wikid tasting event featuring premium selections of THC products.'
-        },
-        {
-          title: 'Wabasha Tasting',
-          start: '2024-07-20T16:00:00',
-          end: '2024-07-20T19:00:00',
-          description: 'Enjoy an evening of craft beer tasting with a variety of fine crafts from local Wabasha brewery.'
-        },
-        {
-          title: 'Urban Growler Tasting',
-          start: '2024-07-26T16:00:00',
-          end: '2024-07-26T19:00:00',
-          description: 'Enjoy an evening of craft beer tasting with a variety of fine crafts from local Urban Growler brewery.'
+          title: 'MLLW THC Tasting',
+          start: '2024-08-31T16:00:00',
+          end: '2024-08-31T19:00:00',
+          description: 'Join us for an exclusive MLLW tasting event featuring premium selections of THC products.'
         }
       ],
       eventRender: function(event, element) {
