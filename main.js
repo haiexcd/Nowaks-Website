@@ -14,11 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
       displayEventTime: false, // Disable default time rendering
       events: [
         {
-          title: 'MLLW THC Tasting',
-          start: '2024-08-31T16:00:00',
-          end: '2024-08-31T19:00:00',
-          description: 'Join us for an exclusive MLLW tasting event featuring premium selections of THC products.'
-        }
+          title: 'Global Reserve THC Tasting',
+          start: '2024-10-11T16:00:00',
+          end: '2024-10-11T19:00:00',
+          description: 'Join us for an exclusive Global Reserve tasting event featuring premium selections of THC products.'
+        },
+        {
+          title: 'Global Reserve THC Tasting',
+          start: '2024-10-19T16:00:00',
+          end: '2024-10-19T19:00:00',
+          description: 'Join us for an exclusive Global Reserve tasting event featuring premium selections of THC products.'
+        },
       ],
       eventRender: function(event, element) {
         // Customize the event title to include the start and end times
