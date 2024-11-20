@@ -14,16 +14,22 @@ document.addEventListener("DOMContentLoaded", function () {
       displayEventTime: false, // Disable default time rendering
       events: [
         {
-          title: 'Global Reserve THC Tasting',
-          start: '2024-10-11T16:00:00',
-          end: '2024-10-11T19:00:00',
-          description: 'Join us for an exclusive Global Reserve tasting event featuring premium selections of THC products.'
+          title: 'St. Ides THC Tasting',
+          start: '2024-11-15T16:00:00',
+          end: '2024-11-15T19:00:00',
+          description: 'Join us for an exclusive St. Ides tasting event featuring premium selections of THC products.'
         },
         {
-          title: 'Global Reserve THC Tasting',
-          start: '2024-10-19T16:00:00',
-          end: '2024-10-19T19:00:00',
-          description: 'Join us for an exclusive Global Reserve tasting event featuring premium selections of THC products.'
+          title: 'Wandering Leaf Tasting',
+          start: '2024-11-22T16:00:00',
+          end: '2024-11-22T19:00:00',
+          description: 'Join us for an exclusive Wandering Leaf tasting event featuring premium selections of Craft Beers.'
+        },
+        {
+          title: '56 Brewing Tasting',
+          start: '2024-11-23T13:00:00',
+          end: '2024-11-23T16:00:00',
+          description: 'Join us for an exclusive 56 Brewing tasting event featuring premium selections of Craft Beers.'
         },
       ],
       eventRender: function(event, element) {
